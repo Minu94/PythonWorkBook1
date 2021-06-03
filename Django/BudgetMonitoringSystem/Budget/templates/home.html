@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>home {{ request.user }}</h1>
+<h3>{{request.user}}<a href="{%url 'signout'%}">logout</a> </h3>
+<a href="{% url 'edit' %}">Edit profile</a>
+<a href="">add expenses</a>
+<a href="{% url 'review' %}">review expenses</a>
+</body>
+</html>

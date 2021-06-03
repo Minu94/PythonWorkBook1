@@ -1,0 +1,15 @@
+#top{
+border-style:solid;
+border-color:red;
+padding-left:10%;
+margin-left:30%;
+}
+#bottom{
+border-style:solid;
+border-color:red;
+margin-top:35%;
+width:50%;
+margin-left:30%;
+padding-left:10%;
+
+}

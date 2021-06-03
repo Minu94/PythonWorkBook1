@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>add expense</h2>
+<form method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+  <table>
+      <tr>
+          <td>category</td>
+          <td>amount</td>
+          <td>note</td>
+
+      </tr>
+      {% for exp in expenses %}
+      <tr>
+      <td>{{exp.category}}</td>
+      <td>{{exp.amount}}</td>
+      <td>{{exp.note}}</td>
+          <td><a href="{%url 'edit' exp.id %}"</td>
+          <td><a href="{%url 'delete' exp.id %}"</td>
+      </tr>
+      {% endfor %}
+  </table>
+</form>
+</body>
+</html>

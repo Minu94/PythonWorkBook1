@@ -1,0 +1,65 @@
+.navbar-custom{
+background-color:White;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color: rgb(237, 82, 14);
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: rgb(237, 82, 14);
+}
+.hero{
+padding-top:10%;
+
+}
+.text-center {
+    text-align: center !important;
+}
+
+ /* Container holding the image and the text */
+.container {
+    position: relative;
+    padding-bottom:5%
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background-color:rgb(237, 82, 14) ;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.btn-outline-primary {
+border-color:white !important ;
+color:white !important;
+}
+.btn-primary, .btn-primary:focus {
+    color: white !important;
+    background-color: rgb(237,82,14) !important;
+    border-color: rgb(237,82,14) !important;
+
+}
+#heading1{
+font-family: 'Antonio', sans-serif;
+}
+#container2{
+padding-bottom:5%;
+}
+.heading2{
+color:rgb(237,82,14);
+}
+
+.button{
+color:black !important;
+}
+.navbar-toggler{
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+background-repeat: no-repeat !important;
+background-color:rgb(237,82,14) !important;
+background-position: center !important;
+}

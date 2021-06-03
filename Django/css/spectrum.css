@@ -1,0 +1,19 @@
+table{
+margin-left:30%;
+}
+td{
+border-style:solid;
+height:500px;
+padding:50px;
+
+}
+#one{
+background-color:red;
+}
+h1{
+font-family: 'Kiwi Maru', serif;
+font-size: 650%
+}
+.drpdown{
+color:black;
+}

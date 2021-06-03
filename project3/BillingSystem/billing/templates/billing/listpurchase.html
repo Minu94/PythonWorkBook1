@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for purchase in purchases %}
+{{purchase.products}}
+{{purchase.qty}}
+{{purchase.purchase_price}}
+{{purchase.selling_price}}
+{{purchase.purchase_date}}
+<a href="{% url 'editpurchase' purchase.id %}">Edit</a>
+<a href="{% url 'deletepurchase' purchase.id %}">Delete</a>
+
+{% endfor %}
+</body>
+</html>
+

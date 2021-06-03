@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>create book</h1>
+<div class="container">
+<form  method="post">
+    {% csrf_token %}
+
+        <div class="form-group">
+            <label>Book name</label>
+            <input type="text" name="bname" class="form-control">
+        </div>
+        <br>
+        <div class="form-group">
+            <label>Book Price</label>
+            <input type="text" name="price" class="form-control">
+
+        </div>
+        <br>
+        <div class="form-group">
+            <label>Author</label>
+            <input type="text" name="author" class="form-control">
+        </div>
+        <br>
+        <div class="form-group">
+            <label>pages</label>
+            <input type="text" name="pages" class="form-control">
+        </div>
+    <br>
+<button type="submit" class="btn btn-primary">submit</button>
+</form>
+</div>
+</body>
+</html>

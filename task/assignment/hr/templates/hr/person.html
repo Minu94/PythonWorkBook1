@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- CSS only -->
+    {% load static %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="{% static 'hr/sm.js' %}"></script>
+</head>
+<body>
+<form method="post">
+    <div class="form-group">
+        <label for="{{form.name.id_for_label}}">{{form.name.label_tag}}</label>
+        <input type="text" class="form-control" id="{{form.name.id_for_label}}">
+    </div>
+    <div class="form-group">
+        <label for="{{form.birth_date.id_for_label}}">{{form.birth_date.label_tag}}</label>
+        <input type="date" class="form-control" id="{{form.birth_date.id_for_label}}">
+    </div>
+    <div class="form-group">
+        <label for="{{form.country.id_for_label}}">{{form.country.label_tag}}</label>
+        <select class="form-select" id="{{form.country.id_for_label}}" onChange="MyFunction()">
+            {% for id,name in form.country.field.choices %}
+            <option value="{{id}}">{{name}}</option>
+            {% endfor %}
+        </select>
+    </div>
+      <div class="form-group">
+        <label for="{{form.state.id_for_label}}">{{form.state.label_tag}}</label>
+        <select class="form-select" id="{{form.state.id_for_label}}" >
+            {% for id,name in form.state.field.choices %}
+            <option value="{{id}}" >{{name}}</option>
+            {% endfor %}
+        </select>
+    </div>
+     <div class="form-group">
+        <label for="{{form.district.id_for_label}}">{{form.district.label_tag}}</label>
+        <select class="form-select" id="{{form.district.id_for_label}}">
+            {% for id,name in form.district.field.choices %}
+            <option value="{{id}}">{{name}}</option>
+            {% endfor %}
+        </select>
+    </div>
+        <div class="form-group">
+        <label for="{{form.city.id_for_label}}">{{form.city.label_tag}}</label>
+        <select class="form-select" id="{{form.city.id_for_label}}">
+            {% for id,name in form.city.field.choices %}
+            <option value="{{id}}">{{name}}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <p id="demo"></p>
+</form>
+<p>junpo</p>
+</body>
+</html>

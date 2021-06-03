@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9879a41-de0f-4dbd-bd6a-b6aa4b20e4ba" name="Default Changelist" comment="madlib" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1q3XnnxjK9pjZwffb2ZkF1xy7NP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_projects" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/madlibs" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9879a41-de0f-4dbd-bd6a-b6aa4b20e4ba" name="Default Changelist" comment="" />
+      <created>1616309416084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616309416084</updated>
+    </task>
+    <task id="LOCAL-00001" summary="madlib">
+      <created>1616309872954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616309872954</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="madlib" />
+    <option name="LAST_COMMIT_MESSAGE" value="madlib" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="195" width="424" height="484" key="FileChooserDialogImpl" timestamp="1616398927870">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="430" y="195" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1616398927870" />
+    <state x="457" y="100" width="509" height="595" key="RollbackChangesDialog" timestamp="1616310185925">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="457" y="100" width="509" height="595" key="RollbackChangesDialog/67.27.1299.741@67.27.1299.741" timestamp="1616310185925" />
+    <state x="488" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616310167371">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="488" y="312" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1299.741@67.27.1299.741" timestamp="1616310167371" />
+  </component>
+</project>
